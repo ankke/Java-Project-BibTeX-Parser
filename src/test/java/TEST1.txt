@@ -1,0 +1,43 @@
+
+% is unmodified.  Modifications (and their redistribution) are also
+% permitted, as long as the resulting file is renamed.
+
+@preamble{ "\newcommand\noopsort[1] "
+        # "\newcommand\printfirst[2] "
+        # "\newcommandsingleletter}[1]#1 "
+        # "\newcommand\switchargs[2] " }
+
+@STRING{ACM = "The OX Association for Computing Machinery"}
+
+
+@INPROCEEDINGS{inproceedings-minimal,
+   author = "Alfred V. Oaho and Jeffrey D. Ullman and Mihalis Yannakakis",
+   title = "On Notions of Information Transfer in VLS Circuits",
+   booktitle = "Proc. Fifteenth Annual ACM" # STOC,
+   year = 1983,
+}
+
+@INPROCEEDINGS{inproceedings-full,
+   author = "Alfred V. Oaho and Jeffrey D. Ullman and Mihalis Yannakakis and von Daniels| Jr | Jan",
+   title = "On Notions of Information Transfer in VLS Circuits",
+   editor = "Wizard V. Oz and Mihalis Yannakakis",
+   booktitle = "Proc. Fifteenth Annual ACM" # STOC,
+   number = 17,
+   series = "All ACM Conferences",
+   pages = "133--139",
+   month = mar,
+   year = 1983,
+   address = "Boston",
+   organization = ACM,
+   publisher = "Academic Press",
+   note = "This is a full INPROCEDINGS entry",
+}
+
+@INPROCEEDINGS{inproceedings-crossref,
+   crossref = "whole-proceedings",
+   author = "Alfred V. Oaho and Jeffrey D. Ullman and Mihalis Yannakakis",
+   title = "On Notions of Information Transfer in VLSI Circuits",
+   organization = "",
+   pages = "133--139",
+   note = "This is a cross-referencing INPROCEEDINGS entry",
+}

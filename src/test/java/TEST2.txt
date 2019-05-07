@@ -1,0 +1,30 @@
+
+
+@INBOOK{inbook-crossref,
+   crossref = "whole-set",
+   title = "Fundamental Algorithms",
+   volume = 1,
+   series = "The Art of Computer Programming",
+   edition = "Second",
+   year = "\noopsort{1973b1973",
+   type = "Section",
+   chapter = "1.2",
+   note = "This is a cross-referencing INBOOK entry",
+   pages = 23,
+}
+
+@BOOK{book-crossref,
+   editor = "Kaczor Donald",
+   crossref = "whole-set",
+   year = 1990,
+}
+
+@BOOK{whole-set,
+   author = "Donald E. Knuth",
+   publisher = "Addison-Wesley",
+   title = "The Art of Computer Programming",
+   series = "Four volumes",
+   note = "Seven volumes planned (this is a cross-referenced set of BOOKs)",
+}
+
+
